@@ -1,8 +1,14 @@
-# My Creative Workplace ( Blender, GIMP, Shotcut projects )
+# My Creative Workplace 
 ---
-## GIMP Projects
-### Ipodvalday - https://www.deviantart.com/sairpa/art/Valentinevibes-872266167
-### MilesSPidey - https://www.deviantart.com/sairpa/art/MilesVibe-872266174 
-### AlwaysEntheos - https://www.deviantart.com/sairpa/art/Always-from-HP-872272567
-### Aurora - https://www.deviantart.com/sairpa/art/Aurora-878095240
+## GIMP Projects <br>
+Ipodvalday - https://www.deviantart.com/sairpa/art/Valentinevibes-872266167 <br>
+MilesSpidey - https://www.deviantart.com/sairpa/art/MilesVibe-872266174 <br>
+AlwaysEntheos - https://www.deviantart.com/sairpa/art/Always-from-HP-872272567 <br>
+Aurora - https://www.deviantart.com/sairpa/art/Aurora-878095240
 ---
+
+## WIP:
+- Krita Projects
+- Blender Prjects
+- Natron Projects
+##

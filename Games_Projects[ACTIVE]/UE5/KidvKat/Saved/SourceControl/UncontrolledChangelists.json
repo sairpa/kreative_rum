@@ -1,0 +1,14 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/Warehouse/Games_Projects/UE5/KidvKat/Content/Maps/InitMap.umap",
+				"D:/Warehouse/Games_Projects/UE5/KidvKat/Content/Materials/MTerrain.uasset",
+				"D:/Warehouse/Games_Projects/UE5/KidvKat/Content/Maps/InitMap_BuiltData.uasset"
+			]
+		}
+	]
+}

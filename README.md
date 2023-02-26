@@ -1,20 +1,29 @@
-# My Creative Workplace 
----
-### GIMP Projects 
+# My Creative Workplace 🎨
+A Collection of all my work that invloves game development, digital art and some random ramblings 🙂
 
-[Ipodvalday](https://www.deviantart.com/sairpa/art/Valentinevibes-872266167)
+## Unreal Projects:
+- KidVKat
 
-[MilesSpidey](https://www.deviantart.com/sairpa/art/MilesVibe-872266174)
+## Godot 4 Projects:
+- KidVKat
 
-[AlwaysEntheos](https://www.deviantart.com/sairpa/art/Always-from-HP-872272567)
+## Blender:
+- Models:
+    - Cat 3D Model with rig {Sculpt and Non Sculpted}
+    - Kid 3D Model with rig
+- Level Design:
+    - Pacman Level Gridmap for Godot
 
-[Aurora](https://www.deviantart.com/sairpa/art/Aurora-878095240)
+## GIMP Projects [RETIRED🥹]:
 
----
+- [Ipodvalday](https://www.deviantart.com/sairpa/art/Valentinevibes-872266167)
 
-### Krita Projects <br>
-[NoXP](https://www.deviantart.com/sairpa/art/NoXP-893603323)
+- [MilesSpidey](https://www.deviantart.com/sairpa/art/MilesVibe-872266174)
 
-### WIP:
-- Blender Prjects
-- Natron Projects
+- [AlwaysEntheos](https://www.deviantart.com/sairpa/art/Always-from-HP-872272567)
+
+- [Aurora](https://www.deviantart.com/sairpa/art/Aurora-878095240)
+
+
+## Krita Projects [RETIRED🥹]:
+- [NoXP](https://www.deviantart.com/sairpa/art/NoXP-893603323)

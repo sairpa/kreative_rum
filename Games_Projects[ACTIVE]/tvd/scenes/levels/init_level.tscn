@@ -1,0 +1,53 @@
+[gd_scene load_steps=8 format=3 uid="uid://oh23ye0taqh0"]
+
+[ext_resource type="PackedScene" uid="uid://ce4hd6muwmk06" path="res://scenes/hero.tscn" id="1_8ovbj"]
+[ext_resource type="PackedScene" uid="uid://bg78f1wl2tbje" path="res://scenes/blood_bank.tscn" id="2_6nipf"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_dbrb0"]
+sky_top_color = Color(0.886644, 0.300699, 0, 1)
+sky_horizon_color = Color(0, 0.744709, 0.776147, 1)
+sky_curve = 0.0568394
+ground_bottom_color = Color(0.854902, 0.364706, 0.239216, 1)
+ground_horizon_color = Color(0.188235, 0.733333, 0.760784, 1)
+ground_curve = 0.0857421
+
+[sub_resource type="Sky" id="Sky_70cw3"]
+sky_material = SubResource("ProceduralSkyMaterial_dbrb0")
+
+[sub_resource type="Environment" id="Environment_vvnm3"]
+background_mode = 2
+sky = SubResource("Sky_70cw3")
+ambient_light_source = 3
+ssr_enabled = true
+ssao_enabled = true
+
+[sub_resource type="BoxMesh" id="BoxMesh_dgde6"]
+size = Vector3(10, 0.001, 10)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_kuk5u"]
+size = Vector3(10, 0.001, 10)
+
+[node name="init_level" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_vvnm3")
+
+[node name="Floor" type="StaticBody3D" parent="."]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Floor"]
+mesh = SubResource("BoxMesh_dgde6")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Floor"]
+shape = SubResource("BoxShape3D_kuk5u")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.999731, 1.01381e-09, -0.0231933, 0.0231933, -4.36996e-08, 0.999731, 0, -1, -4.37114e-08, 0, 6.62827, 0)
+
+[node name="steph" parent="." instance=ExtResource("1_8ovbj")]
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.75365, 5.09109)
+current = true
+
+[node name="bloodBank" parent="." instance=ExtResource("2_6nipf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -3.42954)
